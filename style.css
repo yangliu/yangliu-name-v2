@@ -1,0 +1,248 @@
+/*
+Theme Name: YangLiu.name v2
+Theme URI: http://yangliu.name/
+Description: Theme for YangLiu.name, the online profile for Yang Liu. All rights reserved to Yang Liu (the author of this theme).
+Author: Yang Liu
+Version: 1.0-beta
+License: GNU
+Tags: black, white, one-columns, fixed-width,  microformats, custom-menu
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+/* Layout */
+body {
+	background: #f0f0f0;
+	font-size: 11px;
+	font-family: Helvetica, Arial, Frutiger, "Frutiger Linotype", Univers, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", sans serif;
+	text-align: center;
+}
+.wrapper {
+	text-align: left;
+	margin: 0 auto;
+	width: 700px;
+}
+#header {
+	width: 171px;
+	margin: 0 auto;
+	height: 134px;
+	background: url(images/s.png) no-repeat 15px -613px;
+	position: relative;
+}
+#logo, #logo a {
+	display: block;
+	width: 171px;
+	height: 70px;
+	overflow: hidden;
+}
+#logo {
+	top: 20px;
+	position: absolute;
+}
+#logo a {
+	text-indent: -1000px;
+	background: url(images/s.png) no-repeat 0 0;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+#logo a:hover {
+	opacity: 0.5;
+}
+#slug {
+	width: 108px;
+	height: 10px;
+	top: 95px;
+	left: 31px;
+	position: absolute;
+	background: url(images/s.png) no-repeat 0 -74px;
+	overflow: hidden;
+	text-indent: -1000px;
+}
+#access {
+	height: 48px;
+	border-bottom: 2px solid #9ec9cb;
+}
+.screen-reader-text {
+	position: absolute;
+	left: -9000px;
+}
+.menu-header ul.menu {
+	text-align: center;
+}
+.menu-header ul.menu li.menu-item, .menu-header ul.menu li.current-menu-item {
+	display: inline-block;
+	height: 48px;
+	white-space: nowrap;
+	line-height: 48px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 20px;
+}
+.menu-header ul.menu li.menu-item a, .menu-header ul.menu li.current-menu-item a {
+	display: inline-block;
+	height: inherit;
+	line-height: inherit;
+	text-decoration: none;
+	color: black;	
+}
+.menu-header ul.menu li.menu-item:hover, .menu-header ul.menu li.current-menu-item {
+	border-bottom: 2px solid black;
+}
+#content {
+	margin: 15px 0;
+}
+#footer {
+	clear: both;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#endbar {
+	clear: both;
+	position: relative;
+	height: 10px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#endbar div.hr {
+	height: 4px;
+	border-bottom: 2px solid #9ec9cb;
+}
+#endbar .hr-title {
+	font-size: 10px;
+	font-weight: bold;
+	color: #9ec9cb;
+	position: absolute;
+	background: #f0f0f0;
+	padding: 0 5px;
+	top: 1px;
+	left: 5px;
+	height: 10px;
+	line-height: 10px;
+}
+#site-info {
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 5px;
+	cursor: default;
+}
+#site-info a {
+	color: black;
+	text-decoration: none;
+}
+#site-info a:hover {
+	text-decoration: underline;
+}
+#words-i-like, #words-i-like a {
+	display: inline-block;
+	overflow: hidden;
+	width: 178px;
+	height: 17px;
+}
+#words-i-like {
+	margin-bottom: 5px;
+}
+#words-i-like a {
+	text-indent: -1000px;
+	background: url(images/s.png) no-repeat 0 -90px;
+	
+}
+.title {
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+}
+.title-1 {
+	margin-bottom: 15px;
+}
+.title a {
+	color: black;
+	text-decoration: none;
+}
+.title a:hover {
+	color: #f0f0f0;
+	background: black;
+}
+#content p {
+	font-size: 11px;
+	margin: 10px 0;
+	line-height: 1.6;
+	color: black;
+	text-align: justify;
+}
+#content p a {
+	color: black;
+	text-decoration: underline;
+}
+#content p a:hover {
+	color: #f0f0f0;
+	background: black;
+}
+
+/* home */
+#home-content {
+	height: 300px;
+	overflow: hidden;
+	background: url(images/home-content-bg.png) no-repeat;
+	display: block;
+	vertical-align: middle;
+	position: relative;
+}
+#home-text {
+	width: 280px;
+	margin-left: 30px;
+	position: absolute;
+	top: 20px;
+}
+.home-para {
+	font-size: 11px;
+}
