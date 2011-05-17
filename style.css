@@ -205,11 +205,16 @@ body {
 .title-1 {
 	margin-bottom: 15px;
 }
-.title-2 {
-	text-transform: uppercase;
+.title-2, .title-3 {
 	padding-bottom: 3px;
 	margin: 10px 0;
 	border-bottom: 2px solid black;
+}
+.title-2 {
+	text-transform: uppercase;
+}
+.title-3 {
+	margin-top: 15px;
 }
 .title a {
 	color: black;
@@ -244,6 +249,18 @@ body {
 	padding-left: 12px;
 }
 .col3-first {
+	padding-left: 0!important;
+}
+.cols2 {
+	margin: 0 30px;
+	overflow: hidden;
+}
+.col2 {
+	width: 310px;
+	display: table-cell;
+	padding-left: 20px;
+}
+.col2-first {
 	padding-left: 0!important;
 }
 
@@ -335,3 +352,113 @@ body {
 	background: url(images/s.png) no-repeat 0 -370px;
 }
 
+/* publications */
+.pub-authors, .pub-cite {
+	font-size: 11px;
+	color: black;
+	text-align: justify;
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+.pub-author-me {
+	text-decoration: underline;
+}
+.pub-cite-journal {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.pub-cite-vol {
+	font-weight: bold;
+	font-style: italic;
+}
+.pub-toc {
+	text-align: center;
+	width: 310px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.pub-toc-img {
+	display: inline-block;
+	width: 280px;
+	border: 4px solid #d8e7e8;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+#content p.contact-info-para {
+	text-align: left;
+}
+.contact-line {
+	line-height: 1!important;
+	font-size: 11px;
+	margin-bottom: 8px;
+}
+.contact-line label {
+	display: block;
+	text-transform: uppercase;
+	cursor: default;
+}
+.contact-line input, .contact-line textarea {
+	width: 302px;
+	border: 1px solid black;
+	font-size: 12px;
+	padding: 0 3px;
+	background: #f5f5f5;
+}
+.contact-line input {
+	height: 18px;
+	line-height: 18px;
+}
+.contact-line textarea {
+	min-height: 150px;
+	line-height: 1.3;
+	resize: vertical;
+}
+.contact-line button {
+	border: 1px solid black;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding: 3px 10px;
+	cursor: pointer;
+}
+.contact-line button:hover {
+	background: #f5f5f5;
+	color: black;
+}
+#contact-sns {
+	margin: 10px 0 15px 0;
+}
+#contact-sns li {
+	display: inline-block;
+	height: 22px;
+	overflow: hidden;
+	margin-right: 15px;
+}
+#contact-sns li a {
+	display: inline-block;
+	height: 22px;
+	overflow: hidden;
+	text-indent: -1000px;
+}
+#contact-sns li#sns-twitter a {
+	width: 28px;
+	background: url(images/s.png) no-repeat 0 -456px;
+}
+#contact-sns li#sns-facebook a {
+	width: 12px;
+	background: url(images/s.png) no-repeat -44px -456px;
+}
+#contact-sns li#sns-linkedin a {
+	width: 23px;
+	background: url(images/s.png) no-repeat -75px -456px;
+}
+#contact-sns li#sns-renren a {
+	width: 36px;
+	background: url(images/s.png) no-repeat -115px -456px;
+}
+#contact-sns li#sns-weibo a {
+	width: 25px;
+	background: url(images/s.png) no-repeat -167px -456px;
+}
