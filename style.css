@@ -4,7 +4,7 @@ Theme URI: http://yangliu.name/
 Description: Theme for YangLiu.name, the online profile for Yang Liu. All rights reserved to Yang Liu (the author of this theme).
 Author: Yang Liu
 Version: 1.0-beta
-License: GNU
+License: Private - Please DO NOT use directly
 Tags: black, white, one-columns, fixed-width,  microformats, custom-menu
 */
 
@@ -200,9 +200,16 @@ body {
 	font-size: 13px;
 	font-weight: bold;
 	color: black;
+	cursor: default;
 }
 .title-1 {
 	margin-bottom: 15px;
+}
+.title-2 {
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin: 10px 0;
+	border-bottom: 2px solid black;
 }
 .title a {
 	color: black;
@@ -214,8 +221,8 @@ body {
 }
 #content p {
 	font-size: 11px;
-	margin: 10px 0;
-	line-height: 1.6;
+	margin: 7px 0;
+	line-height: 1.3;
 	color: black;
 	text-align: justify;
 }
@@ -226,6 +233,18 @@ body {
 #content p a:hover {
 	color: #f0f0f0;
 	background: black;
+}
+.cols3 {
+	margin: 0 30px;
+	overflow: hidden;
+}
+.col3 {
+	width: 205px;
+	display: table-cell;
+	padding-left: 12px;
+}
+.col3-first {
+	padding-left: 0!important;
 }
 
 /* home */
@@ -243,6 +262,76 @@ body {
 	position: absolute;
 	top: 20px;
 }
-.home-para {
-	font-size: 11px;
+#content p.home-para {
+	line-height: 1.6!important;
+	margin: 10px 0!important;
 }
+
+/*about me*/
+#content p.am-name {
+	font-size: 18px!important;
+	line-height: 1!important;
+	font-weight: bold;
+	cursor: default;
+}
+#content p.am-name-2 {
+	margin-bottom: 35px!important;
+}
+#content p.am-edulist {
+	margin-left: 70px;
+	text-indent: -70px;
+}
+#am-myphoto {
+	width: 170px;
+	height: 170px;
+	overflow: hidden;
+	text-indent: -1000px;
+	background: url(images/s.png) no-repeat 0 -107px;
+	margin: 20px auto;
+}
+#am-esitems, #am-esitems span {
+	text-align: center;
+	margin-bottom: 6px;
+}
+#am-esitems span {
+	display: inline-block;
+	height: 69px;
+	width: 200px;
+	overflow: hidden;
+	text-indent: -1000px;
+	background: url(images/s.png) no-repeat 0 -290px;
+}
+#content p.am-ralist {
+	margin-left: 6px;
+	text-indent: -6px;
+}
+#am-tastemusic {
+	position: relative;
+}
+#am-tmtitle {
+	text-transform: uppercase;
+	font-size: 11px;
+	color: black;
+	font-weight: bold;
+	width: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#am-tmpic {
+	width: 78px;
+	height: 78px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 70px;
+}
+#am-tmpic span {
+	display: block;
+	overflow: hidden;
+	width: 78px;
+	height: 78px;
+	text-indent: -1000px;
+	background: url(images/s.png) no-repeat 0 -370px;
+}
+
