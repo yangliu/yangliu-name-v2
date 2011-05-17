@@ -754,3 +754,49 @@ div.wpcf7 .watermark {
 .page-title a:hover {
 	text-decoration: underline;
 }
+
+#dsq-account-dropdown a {
+	color: black;
+	text-decoration: none;
+}
+#dsq-account-dropdown a:hover {
+	text-decoration: underline;
+}
+.dsq-brlink {
+	color: #999!important;
+	text-decoration: none!important;
+	float: right!important;
+}
+#dsq-footer, #dsq-footer a{
+	color: #000!important;
+	text-decoration: none!important;
+	text-align: right!important;
+}
+#dsq-footer a:hover {
+	text-decoration: underline!important;
+}
+.dsq-comment-header {
+	font-size: 12px!important;
+	line-height: 12px!important;
+	padding: 5px 10px!important;
+}
+.dsq-commenter-name {
+	color: black!important;
+	text-decoration: none!important;
+}
+.dsq-commenter-name:hover {
+	color: white!important;
+	background: black!important;
+}
+.dsq-collapse-toggle {
+	top: 2px!important;
+}
+#dsq-content h3 {
+	font-size: 13px!important;
+	font-weight: bold!important;
+	color: black!important;
+	text-transform: uppercase!important;
+	padding-bottom: 3px!important;
+	border-bottom: 2px solid black!important;
+	margin-bottom: 10px!important;
+}

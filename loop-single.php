@@ -42,7 +42,7 @@
 					<?php the_content(); ?>
 					<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'yangliu-name-v2' ), 'after' => '</div>' ) ); ?>
 	</div>
-	<?php comments_template( '', true ); ?>
+	<div id="comments"><?php comments_template( '', true ); ?></div>
 </div>
 <?php endwhile; // End the loop. Whew. ?>
 
