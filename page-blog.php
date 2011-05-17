@@ -1,9 +1,10 @@
 <?php
 /**
- * The main template file.
+ * Template Name: Blog Page
+ *
  */
 
-get_header(); ?>
+get_header();?>
 <div id="newsblog-content" class="col1">
 			<?php
 			/* Run the loop to output the posts.
