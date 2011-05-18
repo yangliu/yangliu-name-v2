@@ -766,6 +766,7 @@ div.wpcf7 .watermark {
 	color: #999!important;
 	text-decoration: none!important;
 	float: right!important;
+	display: none!important;
 }
 #dsq-footer, #dsq-footer a{
 	color: #000!important;
